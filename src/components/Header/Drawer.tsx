@@ -3,10 +3,10 @@ import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
-import IconButton from '@mui/material/IconButton';
 import { Box, Button } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
+import MenuIcon from '@mui/icons-material/Menu';
 
 function DrawerCustom() {
   const [DrawerOpen, setDrawerOpen] = useState(false);
@@ -54,7 +54,7 @@ function DrawerCustom() {
       <Button
         onClick={() => setDrawerOpen(true)}
       >
-        <Image src={'/menu.png'} alt='' width={20} height={20} />
+        <MenuIcon />
       </Button>
       <Drawer open={DrawerOpen} onClose={() => setDrawerOpen(false)}>
         {list}
