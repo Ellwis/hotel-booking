@@ -79,7 +79,7 @@ const RegisterForm = () => {
           flexDirection: "column",
           alignItems: "center",
           gap: 2,
-          width: { xs: '250px', md: '400px' },
+          width: { xs: '280px', md: '400px' },
           mx: 'auto',
           // mt: '50px'
         }}>
@@ -94,7 +94,7 @@ const RegisterForm = () => {
               onChange={(e) => setEmail(e.target.value)}
               InputProps={{
                 sx: {
-                  width: { xs: '250px', md: '400px' },
+                  width: { xs: '280px', md: '400px' },
                   mb: 5,
                   bgcolor:  '#F2F2F2'
                 },
@@ -103,7 +103,7 @@ const RegisterForm = () => {
             />
             <Button
               onClick={() => EmailReq()}
-              sx={{ width: { xs: '250px', md: '400px' }, height: '44px', color: 'white', bgcolor: '#2F80ED' }}
+              sx={{ width: { xs: '280px', md: '400px' }, height: '44px', color: 'white', bgcolor: '#2F80ED' }}
             >
               Continue with Email
             </Button>
@@ -116,14 +116,14 @@ const RegisterForm = () => {
           <Button
             variant="outlined"
             startIcon={<Image src={'/google.png'} width={20} height={20} alt='' />}
-            sx={{ width: { xs: '250px', md: '400px' }, height: '44px', color: '#4F4F4F' }}
+            sx={{ width: { xs: '280px', md: '400px' }, height: '44px', color: '#4F4F4F' }}
           >
             Continue with Google
           </Button>
 
           <Button
             variant="contained"
-            sx={{ backgroundColor: '#475993', color: 'white', width: { xs: '250px', md: '400px' }, height: '44px' }}
+            sx={{ backgroundColor: '#475993', color: 'white', width: { xs: '280px', md: '400px' }, height: '44px' }}
             startIcon={<Image src={'/facebook.png'} width={20} height={20} alt='' />}
           >
             Continue with Facebook
@@ -151,7 +151,7 @@ const RegisterForm = () => {
           flexDirection: "column",
           alignItems: "center",
           gap: 2,
-          width: { xs: '250px', md: '400px' },
+          width: { xs: '280px', md: '400px' },
           mx: 'auto',
         }}>
           <Typography variant='h4'>Create Password</Typography>
@@ -167,7 +167,7 @@ const RegisterForm = () => {
               onChange={(e) => setPassword(e.target.value)}
               InputProps={{
                 sx: {
-                  width: { xs: '250px', md: '400px' },
+                  width: { xs: '280px', md: '400px' },
                   bgcolor:'#F2F2F2' ,
                   mb: 3
 
@@ -188,7 +188,7 @@ const RegisterForm = () => {
               onChange={(e) => setRepeatPassword(e.target.value)}
               InputProps={{
                 sx: {
-                  width: { xs: '250px', md: '400px' },
+                  width: { xs: '280px', md: '400px' },
                   bgcolor:'#F2F2F2' ,
 
 
@@ -202,7 +202,7 @@ const RegisterForm = () => {
             />
             <Button
               onClick={() => CreateAccount()}
-              sx={{ mt: 5, width: { xs: '250px', md: '400px' }, height: '44px', color: 'white', bgcolor: '#2F80ED' }}
+              sx={{ mt: 5, width: { xs: '280px', md: '400px' }, height: '44px', color: 'white', bgcolor: '#2F80ED' }}
             >
               Create account
             </Button>

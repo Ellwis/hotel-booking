@@ -36,10 +36,10 @@ const ForgetPassword = () => {
           flexDirection: "column",
           alignItems: "center",
           gap: 2,
-          width: { xs: '250px', md: '400px' },
+          width: { xs: '280px', md: '400px' },
           mx: 'auto',
         }}>
-          <Typography variant='h4'>Forgot your password?</Typography>
+          <Typography variant='h4' sx={{textAlign :'center' , fontSize : {xs : '24px' , md : '26px'}}}>Forgot your password?</Typography>
           <Typography color={'#4F4F4F'} textAlign={'center'}>We’ll send you a link to reset it. Enter your email address used for My Dream Place</Typography>
           <Box sx={{ textAlign: 'left' }}>
 
@@ -52,13 +52,13 @@ const ForgetPassword = () => {
               onChange={(e) => setEmail(e.target.value)}
               InputProps={{
                 sx: {
-                  width: { xs: '250px', md: '400px' },
+                  width: { xs: '280px', md: '400px' },
                   bgcolor: '#F2F2F2',
 
                 },
               }}
             />
-            <Typography variant="subtitle1" sx={{ textAlign: 'right', fontSize: { xs: '10px', md: '14px' }, color: '#2F80ED' }}
+            <Typography variant="subtitle1" sx={{ textAlign: 'right', fontSize: { xs: '10px', md: '14px' }, color: '#2F80ED' , mt :1}}
             >
               <Link href="/login">Return to login</Link>
             </Typography>
@@ -67,7 +67,7 @@ const ForgetPassword = () => {
 
             <Button
               onClick={() => EmailReq()}
-              sx={{ mt: 5, width: { xs: '250px', md: '400px' }, height: '44px', color: 'white', bgcolor: '#2F80ED' }}
+              sx={{ mt: 5, width: { xs: '280px', md: '400px' }, height: '44px', color: 'white', bgcolor: '#2F80ED' }}
             >
               Create account
             </Button>
@@ -97,7 +97,7 @@ const ForgetPassword = () => {
           flexDirection: "column",
           alignItems: "center",
           gap: 2,
-          width: { xs: '250px', md: '400px' },
+          width: { xs: '280px', md: '400px' },
           mx: 'auto',
         }}>
           <Image src={'/msg.png'} width={280} height={250} alt='' />
@@ -105,7 +105,7 @@ const ForgetPassword = () => {
           <Typography>We have just emailed you the instrustions and a reset password link to {email} It might take a few minutes to arrive</Typography>
           <Button
           href='/login'
-            sx={{ width: { xs: '250px', md: '400px' }, height: '44px', color: 'white', bgcolor: '#2F80ED', mt: 5 }}
+            sx={{ width: { xs: '280px', md: '400px' }, height: '44px', color: 'white', bgcolor: '#2F80ED', mt: 5 }}
           >
             Return to login
           </Button>

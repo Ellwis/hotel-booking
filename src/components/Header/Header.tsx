@@ -48,11 +48,11 @@ const Header: FC = () => {
           }}
         >
 
-          <Typography>Home</Typography>
-          <Typography>Discover</Typography>
-          <Typography>Activities</Typography>
-          <Typography>About</Typography>
-          <Typography>Contact</Typography>
+          <Typography sx={{cursor :'pointer'}}>Home</Typography>
+          <Typography sx={{cursor :'pointer'}}>Discover</Typography>
+          <Typography sx={{cursor :'pointer'}}>Activities</Typography>
+          <Typography sx={{cursor :'pointer'}}>About</Typography>
+          <Typography sx={{cursor :'pointer'}}>Contact</Typography>
 
 
 
