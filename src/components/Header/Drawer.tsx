@@ -41,9 +41,11 @@ function DrawerCustom() {
 
           </ListItem>
         </Link>
-        <ListItem href='/register' button>
-          <ListItemText sx={{ textAlign: 'center' }} primary="Sign up" />
-        </ListItem>
+        <Link href='/register'>
+          <ListItem  button>
+            <ListItemText sx={{ textAlign: 'center' }} primary="Sign up" />
+          </ListItem>
+        </Link>
 
       </List>
     </Box>

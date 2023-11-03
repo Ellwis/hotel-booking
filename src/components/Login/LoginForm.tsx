@@ -41,7 +41,7 @@ const LoginForm = () => {
         mx: 'auto',
         // mt: '50px'
       }}>
-        <Typography variant='h4'>Sign In</Typography>
+        <Typography variant='h4'>Login</Typography>
         <Box sx={{ textAlign: 'left' }}>
 
           <InputLabel>Email Address</InputLabel>

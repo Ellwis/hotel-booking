@@ -130,7 +130,7 @@ const RegisterForm = () => {
           </Button>
 
           <Typography variant="body2">
-            Already have an account? <Link style={{ color: '#2F80ED' }} href="/login"> Sign in</Link>
+            Already have an account? <Link style={{ color: '#2F80ED' }} href="/login"> Login</Link>
           </Typography>
         </Box>
       </Box>

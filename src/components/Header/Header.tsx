@@ -65,7 +65,7 @@ const Header: FC = () => {
           }}
         >
           <Box sx={{display : {md : 'block' , xs : 'none'}}}>
-            <Button href="/login" variant="contained" sx={{ bgcolor :'#2F80ED'}}>Sign in</Button>
+            <Button href="/login" variant="contained" sx={{ bgcolor :'#2F80ED'}}>Login</Button>
             <Button href="/register" sx={{ mx: 1 }} variant='outlined'>Register</Button>
           </Box>
           <Box sx={{display : {md : 'none' , xs : 'block'} , mr : 5}}>
